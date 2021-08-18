@@ -1,0 +1,28 @@
+week 04 demo code
+
+usage: type the command below
+
+// 1. compilation
+make
+// 2. run the program
+./main
+// 3. check the newly-created file alpha
+cat alpha
+// 4. check the destination file dest
+cat dest
+// 5. remove all the temporary files
+make clean
+
+explanation:
+
+source file name: alpha, destination file name: dest
+
+main.c - main function to call 1. buffer_related; 2. create_file; 3. lseek_related; 4. read_write_related functions
+
+buffer_related: explain the root cause of weird characters when using buffer for file reading and writing
+
+create_file: how to create a simple file with 26 alphabets
+
+lseek_related: demonstrate how to use lseek to locate any position for file reading
+
+read_write_related: demonstrate how to use system call read, write, open, close to read from source file and write to destination file
